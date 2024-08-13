@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Workouts</a></li>
+                <li><a href="#">Trainers</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="logo.png" alt="Fitness Logo">
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Get Fit, Stay Healthy</h1>
+            <p>Join our fitness community and start your journey to a healthier you!</p>
+            <button>Get Started</button>
+        </div>
+        <div class="hero-image">
+            <img src="hero-image.jpg" alt="Hero Image">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <h2>BMI Calculator</h2>
+            <p>Calculate your body mass index and track your progress.</p>
+            <button>Calculate BMI</button>
+        </div>
+        <div class="feature">
+            <h2>Workout Library</h2>
+            <p>Access our extensive library of workouts and exercises.</p>
+            <button>Explore Workouts</button>
+        </div>
+        <div class="feature">
+            <h2>Trainer Profiles</h2>
+            <p>Meet our experienced trainers and get personalized guidance.</p>
+            <button>Meet Our Trainers</button>
+        </div>
+    </section>
+
+    <!-- BMI Calculator Section -->
+    <section class="bmi-calculator">
+        <h2>BMI Calculator</h2>
+        <form>
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" name="height">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" name="weight">
+            <button>Calculate BMI</button>
+        </form>
+        <div class="bmi-result">
+            <p>Your BMI is: <span id="bmi-result"></span></p>
+            <p>Your BMI category is: <span id="bmi-category"></span></p>
+        </div>
+    </section>
+
+    <!-- Workout Library Section -->
+    <section class="workout-library">
+        <h2>Workout Library</h2>
+        <ul>
+            <li>
+                <h3>Workout 1</h3>
+                <p> Description of Workout 1</p>
+            </li>
+            <li>
+                <h3>Workout 2</h3>
+                <p> Description of Workout 2</p>
+            </li>
+            <li>
+                <h3>Workout 3</h3>
+                <p> Description of Workout 3</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Trainer Profiles Section -->
+    <section class="trainer-profiles">
+        <h2>Trainer Profiles</h2>
+        <ul>
+            <li>
+                <h3>Trainer 1</h3>
+                <p> Bio of Trainer 1</p>
+                <button>Contact Trainer 1</button>
+            </li>
+            <li>
+                <h3>Trainer 2</h3>
+                <p> Bio of Trainer 2</p>
+                <button>Contact Trainer 2</button>
+            </li>
+            <li>
+                <h3>Trainer 3</h3>
+                <p> Bio of Trainer 3</p>
+                <button>Contact Trainer 3</button>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Fitness Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
